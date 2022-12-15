@@ -1,0 +1,10 @@
+x = list(int(i) for i in input().split())
+y = []
+for i in x:
+    n=1
+    for j in x:
+        if i!=j:
+            n=n*j
+        y. append(n)
+    print(y)
+    break
